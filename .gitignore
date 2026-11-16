@@ -1,0 +1,15 @@
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 语料与图谱原始数据（体积大，由 fetch_corpus.py / 下载脚本按需拉取，不随仓库分发）
+tcm-corpus/
+dragontcm/
+
+# 打包产物
+*.zip
+*.skill
+
+# 临时文件
+*.tmp
+rf.tmp
